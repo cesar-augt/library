@@ -17,7 +17,7 @@ Follow these steps to get the project up and running:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/cesar-augt/app-library
+    git clone https://github.com/cesar-augt/library.git
     ```
 
 2. Change into the project directory:
@@ -48,10 +48,10 @@ Follow these steps to get the project up and running:
 6. Start the development server:
 
     ```bash
-    yii serve
+    yii serve localhost:8888
     ```
 
-    Access the application at [http://localhost:8080](http://localhost:8080).
+    Access the application at [http://localhost:8888](http://localhost:8888).
 
 ## Directory Structure
 
