@@ -17,13 +17,13 @@ Follow these steps to get the project up and running:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-yii2-project.git
+    git clone https://github.com/cesar-augt/app-library
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd your-yii2-project
+    cd library
     ```
 
 3. Install dependencies:
@@ -35,7 +35,7 @@ Follow these steps to get the project up and running:
 4. Configure the database:
 
     - Create a new database for the project.
-    - Copy the `.env.example` file to `.env` and update the database connection settings.
+    - Update the database connection settings in the file config/db.php.
 
 5. Apply migrations:
 
@@ -62,11 +62,3 @@ Follow these steps to get the project up and running:
 - `runtime/` - Runtime files
 - `views/` - View files
 - `web/` - Web assets and entry scripts
-
-## Contributing
-
-If you would like to contribute to the project, please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
